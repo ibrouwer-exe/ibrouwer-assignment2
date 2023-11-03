@@ -3,69 +3,87 @@
     /* colour variants */
     --blue-dark: #362FD9;
     --black-type: #040D12;
+    --white-type: aliceblue;
 }
 body, html {
     height: 100vh;
     margin: 0;
     font-family: Inter;
+    background-color: var(--blue-dark);
 }
 
 header {
     background-color: rgba (0,0,0,0);
-    text-align: left;
 }
 
 /*navigation css*/
-.main-nav {
-    width: 95%;
-    float: left;
-    margin: auto;
-}
-.main-nav ul{
-    list-style-type: none;
-    display:flex;
-    font-weight: 500;
-    grid-gap: 10%;
-   position: 
-   float: left;
+nav {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    
+    
 }
 
+nav ul{
+    display: flex;
+    font-weight: 500;
+    width: 100%;
+    grid-gap: 2%;
+    list-style-type: none;
+    padding: 1em 3em;
+   
+}
+
+.main-nav {
+    overflow: hidden;
+    width: 100%;
+    padding:0
+ } 
+
 .main-nav ul li a {
-    text-decoration:none;
-    background-color: rgba(59, 102, 152, 0.2);
-    color: var(--blue-dark); 
-    padding: 0.5em 1em;
-    align-items: flex-start;
+    text-decoration: none;
+    color: var(--white-type);
     border-style: dashed;
+    padding: 0.5em 1em;
+  
 }
 
 .main-nav ul li a:hover {
-    color: var(--blue-dark);
     border-style: solid;
-}
-.main-nav ul li a:active {
-    background-color: var(--blue-dark);
-    border-style: solid;
+   
 }
 
+.main-nav ul li a:active {
+    border-style: solid;
+    color: var(--white-type);
+   
+}
 
 /*navigation css ends*/
 
 section {
-    padding: 2%;
     overflow:hidden;
+    width: 100%;
 
 }
+
+h1 {
+    font-family: Vortice;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--white-type);
+    text-align: left;
+    padding: 0.5em 3em;
+}
+
 img {
     max-width: 100%;
 }
 
 .pg-padding {
     padding: 2%;
+    width: 100%;
 }
 
 
-.p-large {
-    font-size: 1.25em;
-    line-height: 1.5;
-}

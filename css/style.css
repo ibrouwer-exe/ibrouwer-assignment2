@@ -13,6 +13,7 @@ body, html {
     font-family: Inter;
     color: var(--white-type);
     background-color: var(--blue-dark);
+    scroll-behavior: smooth;
 }
 
 header {
@@ -101,6 +102,6 @@ img {
     min-width: 100%;
     height: 100vh;
 }
-.
 
-/* media queries */
+
+/*media queries*/

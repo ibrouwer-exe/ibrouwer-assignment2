@@ -19,7 +19,8 @@ body, html {
 }
 
 header {
-    height:17%;
+    height: 17%;
+    background-image: linear-gradient(#362FD9,#2d27c4)
    
 }
 
@@ -303,6 +304,12 @@ img {
 }
 
 /*scroll down anim css ends*/
+
+/*id css*/
+#one {
+    background-image: linear-gradient(#2C25C9, #362FD9);
+}
+
 
 
 /*media queries*/

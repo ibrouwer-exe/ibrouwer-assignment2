@@ -90,17 +90,15 @@ h1 {
     padding: 6em;
 }
 
-
 p {
     text-align:justify;
     font-size: 2.5em;
+    margin: auto;
 }
 
-p .pintro {
-    padding: 
-
+p .intro-info {
+    width:50%;
 }
-
 /*text css ends*/
 
 img {

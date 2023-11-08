@@ -26,7 +26,7 @@ header {
 
 /*navigation css*/
 nav {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
     width: 100%;
     position: fixed;
@@ -42,7 +42,7 @@ nav ul{
     width: 100%;
     grid-gap: 2%;
     list-style-type: none;
-    padding: 1em 3em;
+    padding: 1% 3%;
    
 }
 
@@ -90,10 +90,17 @@ h1 {
     padding: 6em;
 }
 
+
 p {
     text-align:justify;
     font-size: 2.5em;
 }
+
+p .pintro {
+    padding: 
+
+}
+
 /*text css ends*/
 
 img {
@@ -110,23 +117,6 @@ img {
     height: 100vh;
     background-color: var(--blue-dark);
 }
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 10%;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-
-
-}
-
-
-
-
 
 /*scroll down anim css*/
 
@@ -309,7 +299,20 @@ img {
 #one {
     background-image: linear-gradient(#2C25C9, #362FD9);
 }
-
-
+#two {
+    background-image: linear-gradient(#362FD9, #4A44DD);
+}
+#three {
+    background-image: linear-gradient(#4A44DD,#5F59E2);
+}
+#pthree {
+    position: relative;
+}
+#four {
+    background-image: linear-gradient(#5F59E2,#736EE6);
+}
+#five {
+    background-image: linear-gradient(#736EE6,#8884EA);
+}
 
 /*media queries*/

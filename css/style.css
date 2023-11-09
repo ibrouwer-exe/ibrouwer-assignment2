@@ -57,7 +57,7 @@ nav ul{
     color: var(--white-type);
     border-style: dashed;
     padding: 0.5em 1em;
-    text-shadow: 0 0 0.4em var(--blue-dark);
+    text-shadow: 0 0 0.1em var(--black-type);
     
 
   
@@ -88,7 +88,7 @@ h1 {
     font-weight: 700;
     color: var(--white-type);
     text-align: center;
-    width:100%;
+    width:75%;
     
     
     
@@ -112,7 +112,7 @@ h2 {
 p {
     text-align:justify;
     font-size: 2.5em;
-    margin: auto;
+    align-items: center;
     
 }
 
@@ -332,6 +332,7 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .mainstyle {
@@ -340,13 +341,32 @@ strong {
     background-color: var(--blue-dark);
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    
+}
+
+.grid-child {
+
+}
+
 
 .introintro {
     padding-top: 15%;
     padding-bottom: 6%;
     text-align: center;
 }
-.intro-info {
+.info {
     width:75%;
     height: 25%;
     margin: auto;
@@ -363,6 +383,8 @@ strong {
     display: table;
     clear: both;
 }
+
+
 #one {
     background-image: linear-gradient(#2C25C9, #362FD9);
 }
@@ -372,9 +394,7 @@ strong {
 #three {
     background-image: linear-gradient(#4A44DD,#5F59E2);
 }
-#pthree { 
-    position: relative;
-}
+
 #four {
     background-image: linear-gradient(#5F59E2,#736EE6);
 }
@@ -390,11 +410,19 @@ strong {
 
 }
 
+#six p {
+    width: 60%;
+    font-size: 2em;
+    position: relative;
+    top: 100px;
+    text-align: justify;
+}
+
 
 
 #seven {
-    height: auto;
-    background-image: linear-gradient(#9D9AEE,#B2B0F2);
+    height: 100vh;
+    background-color:#d4d8db
 
 }
 

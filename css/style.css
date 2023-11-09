@@ -518,13 +518,6 @@ b {
 
 }
 
-#eight {
-    background-image: linear-gradient(#2C25C9,#DB88DC);
-}
-
-#nine {
-    background-image: linear-gradient(#DB88DC,#E07A7A);
-}
 #big-main {
     height: 300vh;
 }

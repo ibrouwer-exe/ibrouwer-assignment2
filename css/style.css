@@ -14,12 +14,12 @@ body, html {
     margin: 0;
     font-family: Inter;
     color: var(--white-type);
-    background-color: var(--blue-dark);
+    background-color: #9D9AEE;
     scroll-behavior: smooth;
 }
 
 header {
-    height: 17%;
+    height: 0%;
     background-image: linear-gradient(#362FD9,#2d27c4)
    
 }
@@ -75,10 +75,6 @@ nav ul{
 
 /*navigation css ends*/
 
-section {
-    width: 100%;
-
-}
 /*text css*/
 h1 {
     font-family: vortice-concept;
@@ -87,18 +83,26 @@ h1 {
     color: var(--white-type);
     text-align: center;
     display: block;
-    padding: 6em;
+    padding: 20%;
 }
 
 p {
     text-align:justify;
     font-size: 2.5em;
     margin: auto;
+    
 }
 
-p .intro-info {
-    width:50%;
+strong {
+    font-family: vortice-concept;
+    font-size: 13em;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
 }
+
+
 /*text css ends*/
 
 img {
@@ -113,6 +117,7 @@ img {
 .mainstyle {
     min-width: 100%;
     height: 100vh;
+    margin:0;
     background-color: var(--blue-dark);
 }
 
@@ -121,12 +126,12 @@ img {
 .mouse_scroll {
 	display:block;
     position:relative;
-    bottom: 20%;
+    bottom: 25%;
 	margin: 0 auto;
 	width: 24px;
 	height: 100px;
 	margin-top: 125px;
-    margin-bottom: 10px;
+    
 }
 
 
@@ -292,8 +297,34 @@ img {
 }
 
 /*scroll down anim css ends*/
+.introquestion {
+    
+    padding-top: 10%;
+    text-align: center;
+}
+.introintro {
+    padding-top: 15%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+.intro-info {
+    width:75%;
+    height: 25%;
+    padding-top: 20%;
+    margin: auto;
+}
 
-/*id css*/
+.column {
+    float: left;
+    width: 33.33%;
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 #one {
     background-image: linear-gradient(#2C25C9, #362FD9);
 }
@@ -303,7 +334,7 @@ img {
 #three {
     background-image: linear-gradient(#4A44DD,#5F59E2);
 }
-#pthree {
+#pthree { 
     position: relative;
 }
 #four {
@@ -312,5 +343,26 @@ img {
 #five {
     background-image: linear-gradient(#736EE6,#8884EA);
 }
+#six {
+    height: auto;
+    background-image: linear-gradient(#8884EA,#9D9AEE);
+
+}
+#six:hover {
+    height: auto;
+    background-image: src(../images/prairie-bkgd.jpeg);
+
+}
+
+#seven {
+    height: auto;
+    background-image: linear-gradient(#9D9AEE,#B2B0F2);
+
+}
 
 /*media queries*/
+@media screen and (max-width: 700px) {
+    h1 {
+    font-size: 32px; 
+    }
+}

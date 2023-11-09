@@ -10,7 +10,7 @@
     --white-type: aliceblue;
 }
 body, html {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: Inter;
     color: var(--white-type);
@@ -57,6 +57,8 @@ nav ul{
     color: var(--white-type);
     border-style: dashed;
     padding: 0.5em 1em;
+    text-shadow: 0 0 0.4em var(--blue-dark);
+    
 
   
 }
@@ -76,14 +78,35 @@ nav ul{
 /*navigation css ends*/
 
 /*text css*/
+img {
+    max-width: 100%;
+}
+
 h1 {
     font-family: vortice-concept;
     font-size: 2.5em;
     font-weight: 700;
     color: var(--white-type);
     text-align: center;
-    display: block;
-    padding: 20%;
+    width:100%;
+    
+    
+    
+
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: var(--white-type);
+    text-align: center;
+    width:100%;
+    
+    
+    margin: 0 auto;
+    padding: 0 auto;
+
 }
 
 p {
@@ -105,32 +128,28 @@ strong {
 
 /*text css ends*/
 
-img {
-    max-width: 100%;
-}
-
-.pg-padding {
-    padding: 2%;
-    width: 100%;
-}
-
-.mainstyle {
-    min-width: 100%;
-    height: 100vh;
-    margin:0;
-    background-color: var(--blue-dark);
-}
+/*centering grid css*/
+.outer {
+    display: grid;
+    place-items: center;
+  }
+  .outer > * {
+    grid-column: 1fr / 1fr;
+    grid-row: 1fr / 8fr;
+  }
 
 /*scroll down anim css*/
 
 .mouse_scroll {
-	display:block;
-    position:relative;
-    bottom: 25%;
-	margin: 0 auto;
-	width: 24px;
-	height: 100px;
-	margin-top: 125px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    
+    
+    
     
 }
 
@@ -297,11 +316,31 @@ img {
 }
 
 /*scroll down anim css ends*/
-.introquestion {
-    
-    padding-top: 10%;
-    text-align: center;
+
+
+
+
+.pg-padding {
+    padding: 3% 4%;
+   
 }
+
+.container {
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainstyle {
+    min-width: 100%;
+    height: 100vh;
+    background-color: var(--blue-dark);
+}
+
+
 .introintro {
     padding-top: 15%;
     padding-bottom: 6%;
@@ -310,7 +349,6 @@ img {
 .intro-info {
     width:75%;
     height: 25%;
-    padding-top: 20%;
     margin: auto;
 }
 
@@ -341,18 +379,18 @@ img {
     background-image: linear-gradient(#5F59E2,#736EE6);
 }
 #five {
-    background-image: linear-gradient(#736EE6,#8884EA);
+    background-image: linear-gradient(#736EE6,#d4d8db);
 }
 #six {
-    height: auto;
-    background-image: linear-gradient(#8884EA,#9D9AEE);
+    height: 100vh;
+    background-image: url(../images/prairie-bkgd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
-#six:hover {
-    height: auto;
-    background-image: src(../images/prairie-bkgd.jpeg);
 
-}
+
 
 #seven {
     height: auto;

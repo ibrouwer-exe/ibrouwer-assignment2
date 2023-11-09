@@ -394,6 +394,13 @@ b {
     margin-right: 20%;
 }
 
+.timeline {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+
+}
+
 .timeline ul li {
     list-style-type: none;
     position: relative;
@@ -458,6 +465,8 @@ b {
     text-align: left;
     font-size:large;
     color: var(--black-type);
+    
+   
   }
 
   time {
@@ -517,7 +526,7 @@ b {
     background-image: linear-gradient(#DB88DC,#E07A7A);
 }
 #big-main {
-    height: 200vh;
+    height: 300vh;
 }
 
 /*media queries*/

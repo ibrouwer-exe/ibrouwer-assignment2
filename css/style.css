@@ -84,7 +84,7 @@ img {
 
 h1 {
     font-family: vortice-concept;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-weight: 700;
     color: var(--white-type);
     text-align: center;
@@ -97,7 +97,7 @@ h1 {
 
 h2 {
     font-family: Inter;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-weight: 300;
     color: var(--white-type);
     text-align: center;
@@ -111,7 +111,7 @@ h2 {
 
 p {
     text-align:justify;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     align-items: center;
     font-weight: 300;
     
@@ -119,7 +119,7 @@ p {
 
 strong {
     font-family: vortice-concept;
-    font-size: 13em;
+    font-size: 13vw;
     display: block;
     text-align: center;
     margin: 0 auto;

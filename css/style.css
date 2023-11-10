@@ -518,6 +518,18 @@ b {
 
 }
 
+#eight {
+    height: 100vh;
+    background-color: #2C25C9;
+}
+
+
+
+#ten {
+    height: 100vh;
+    background-color:#2C25C9;
+}
+
 #big-main {
     height: 300vh;
 }
@@ -552,7 +564,7 @@ b {
     .timeline ul li:nth-child(even) div::before {
       left: -15px;
       border-width: 8px 16px 8px 0;
-      border-color: transparent #F45B69 transparent transparent;
+      border-color: transparent #d4d8db transparent transparent;
     }
   
   }

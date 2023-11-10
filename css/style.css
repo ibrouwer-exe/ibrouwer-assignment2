@@ -545,8 +545,6 @@ b {
       width: calc(100vw - 91px);
     }
   
-    
-  
     .timeline ul li:nth-child(even) div {
       left: 45px;
     }
